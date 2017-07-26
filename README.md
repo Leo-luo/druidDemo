@@ -48,7 +48,6 @@ druid数据库使用demo
     <!-- 关闭abanded连接时输出错误日志 -->
     <property name="logAbandoned" value="true" />
 </bean>
-上面的参数都可以根据自己的需要来调整。具体配置请访问我的 GitHub 示例https://github.com/mafly/SpringDemo/blob/master/WebContent/WEB-INF/applicationContext.xml
 三、web.xml文件配置监控平台
 <!-- 连接池 启用Web监控统计功能   start-->
 <filter>
